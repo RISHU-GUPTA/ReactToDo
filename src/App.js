@@ -22,7 +22,6 @@ add(event){
   console.log("The input inside add is ",this.inputs);
   this.arr.push(this.inputs);
   this.inputs={};
-  console.log("The array is ",this.arr);
   this.setState({...this.state,arr:this.arr});
 }
 

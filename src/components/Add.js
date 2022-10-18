@@ -5,11 +5,11 @@ const Add = (props) => {
   <div className="form-row container mt-3">
     <div className="form-group col-md-6">
       <label>Expenses</label>
-      <input onChange={props.input} type="text" className="form-control" id="expense" placeholder="Expense"/>
+      <input onChange={props.input} type="text" className="form-control" id="expense" placeholder="Enter Expense"/>
     </div>
     <div className="form-group col-md-6">
       <label >Price</label>
-      <input onChange={props.input} type="number" className="form-control" id="price" placeholder="Price"/>
+      <input onChange={props.input} type="number" className="form-control" id="price" placeholder="Enter Price"/>
     </div>
   </div>
   <div className="form-group">
@@ -26,7 +26,7 @@ const Add = (props) => {
     </div> 
 
    
-<button onClick={props.add} type="submit" className="btn btn-success">ADD</button>
+<button onClick={props.add} type="submit" className="btn btn-success">Click To ADD</button>
 </form>
     );
 }
